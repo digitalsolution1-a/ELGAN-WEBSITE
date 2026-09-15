@@ -1,3 +1,9 @@
 allowBuilds:
-  msw: false
-  sharp: false
+  msw: true
+  sharp: true
+
+overrides:
+  # Replace these examples with your actual package overrides if you have any, 
+  # or you can delete this overrides section if you don't use any package overrides.
+  "example-package-1": "^1.2.3"
+  "example-package-2": "4.5.0"

@@ -4,6 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  example-package-1: ^1.2.3
+  example-package-2: 4.5.0
+
 importers:
 
   .:
