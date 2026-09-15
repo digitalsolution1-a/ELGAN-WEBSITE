@@ -1,0 +1,62 @@
+import type { Metadata } from 'next'
+import { PageHero } from '@/components/page-hero'
+import { SectionHeading } from '@/components/section-heading'
+import { ProjectsGrid } from '@/components/projects-grid'
+import { CtaSection } from '@/components/cta-section'
+import { Reveal } from '@/components/reveal'
+
+export const metadata: Metadata = {
+  title: 'Projects',
+  description:
+    'Selected ELGAN projects including NIMASA anti-ballistic gun shields, military patrol vessel protection, security document production, and offshore waste reception facilities.',
+}
+
+const highlights = [
+  { value: 'NIMASA', label: 'Maritime Enforcement' },
+  { value: 'Defence', label: 'Vessel Protection' },
+  { value: 'Oil & Gas', label: 'Environmental Engineering' },
+]
+
+export default function ProjectsPage() {
+  return (
+    <>
+      <PageHero
+        eyebrow="Our Projects"
+        title="Delivering mission-critical outcomes"
+        description="A selection of programmes where ELGAN's engineering and security expertise has protected national assets, personnel, and the environment."
+      />
+
+      <section className="border-b border-border bg-muted">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 divide-y divide-border sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+          {highlights.map((item, i) => (
+            <Reveal
+              key={item.label}
+              delay={i * 80}
+              className="px-6 py-8 text-center"
+            >
+              <p className="font-serif text-2xl text-[var(--navy)]">{item.value}</p>
+              <p className="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                {item.label}
+              </p>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      <section className="py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            eyebrow="Case Portfolio"
+            title="Engineering that protects what matters"
+            description="Each engagement reflects our commitment to precision, compliance, and operational reliability in demanding environments."
+          />
+          <div className="mt-14">
+            <ProjectsGrid />
+          </div>
+        </div>
+      </section>
+
+      <CtaSection />
+    </>
+  )
+}
