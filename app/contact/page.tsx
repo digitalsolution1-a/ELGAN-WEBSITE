@@ -14,7 +14,7 @@ const details = [
   {
     icon: MapPin,
     title: 'Head Office',
-    lines: ['0,Pelewura Crescent, Apapa, Lagos, Nigeria'],
+    lines: ['10,Pelewura Crescent, Apapa, Lagos, Nigeria'],
   },
   {
     icon: Phone,
