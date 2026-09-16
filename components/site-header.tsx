@@ -47,8 +47,8 @@ export function SiteHeader() {
           <Image
             src="/images/elganlogocheck.png"
             alt="ELGAN Logo"
-            width={140}
-            height={40}
+            width={180}
+            height={55}
             className="h-10 w-auto object-contain"
             priority
           />
