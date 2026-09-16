@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { Menu, X, Shield, Phone } from 'lucide-react'
+import { Menu, X, Phone } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { LinkButton } from '@/components/link-button'
 
@@ -43,15 +44,14 @@ export function SiteHeader() {
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3 text-white">
-          <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[var(--gold)] text-[var(--navy)]">
-            <Shield className="h-5 w-5" strokeWidth={2.4} />
-          </span>
-          <span className="flex flex-col leading-tight">
-            <span className="font-serif text-lg tracking-wide">ELGAN</span>
-            <span className="text-[10px] uppercase tracking-[0.25em] text-white/70">
-              Integrated Services
-            </span>
-          </span>
+          <Image
+            src="/images/Elgan Logo 2.jpg"
+            alt="ELGAN Logo"
+            width={140}
+            height={40}
+            className="h-10 w-auto object-contain"
+            priority
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
@@ -62,8 +62,8 @@ export function SiteHeader() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  'relative px-4 py-2 text-sm font-medium tracking-wide text-white/80 transition-colors hover:text-white',
-                  active && 'text-white',
+                  'relative px-4 py-2 text-sm font-medium tracking-wide text-white/85 transition-colors hover:text-white',
+                  active && 'text-white font-semibold',
                 )}
               >
                 {link.label}
@@ -106,7 +106,7 @@ export function SiteHeader() {
                   key={link.href}
                   href={link.href}
                   className={cn(
-                    'rounded-md px-4 py-3 text-base font-medium text-white/80 transition-colors hover:bg-white/5 hover:text-white',
+                    'rounded-md px-4 py-3 text-base font-medium text-white/85 transition-colors hover:bg-white/5 hover:text-white',
                     active && 'bg-white/10 text-white',
                   )}
                 >
