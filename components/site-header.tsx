@@ -38,14 +38,14 @@ export function SiteHeader() {
       className={cn(
         'fixed inset-x-0 top-0 z-50 transition-all duration-300',
         scrolled
-          ? 'bg-[var(--navy)]/95 backdrop-blur-md shadow-lg shadow-black/20'
-          : 'bg-gradient-to-b from-[var(--navy-deep)]/70 to-transparent',
+          ? 'bg-[#F9F9FB]/95 backdrop-blur-md shadow-sm border-b border-neutral-200/60'
+          : 'bg-[#F9F9FB]/80 backdrop-blur-sm border-b border-neutral-200/40',
       )}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-3 text-white">
+        <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/images/Elgan Logo 2.png"
+            src="/images/Elgan Logo 2.jpg"
             alt="ELGAN Logo"
             width={140}
             height={40}
@@ -62,8 +62,8 @@ export function SiteHeader() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  'relative px-4 py-2 text-sm font-medium tracking-wide text-white/85 transition-colors hover:text-white',
-                  active && 'text-white font-semibold',
+                  'relative px-4 py-2 text-sm font-medium tracking-wide text-neutral-700 transition-colors hover:text-neutral-950',
+                  active && 'text-neutral-950 font-semibold',
                 )}
               >
                 {link.label}
@@ -88,7 +88,7 @@ export function SiteHeader() {
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          className="inline-flex h-10 w-10 items-center justify-center rounded-md text-white lg:hidden"
+          className="inline-flex h-10 w-10 items-center justify-center rounded-md text-neutral-800 lg:hidden hover:bg-neutral-200/50"
           aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}
         >
@@ -97,7 +97,7 @@ export function SiteHeader() {
       </div>
 
       {open && (
-        <div className="border-t border-white/10 bg-[var(--navy)] lg:hidden">
+        <div className="border-t border-neutral-200 bg-[#F9F9FB] lg:hidden shadow-lg">
           <nav className="mx-auto flex max-w-7xl flex-col px-4 py-4 sm:px-6" aria-label="Mobile">
             {navLinks.map((link) => {
               const active = pathname === link.href
@@ -106,8 +106,8 @@ export function SiteHeader() {
                   key={link.href}
                   href={link.href}
                   className={cn(
-                    'rounded-md px-4 py-3 text-base font-medium text-white/85 transition-colors hover:bg-white/5 hover:text-white',
-                    active && 'bg-white/10 text-white',
+                    'rounded-md px-4 py-3 text-base font-medium text-neutral-700 transition-colors hover:bg-neutral-200/50 hover:text-neutral-950',
+                    active && 'bg-neutral-200/60 text-neutral-950 font-semibold',
                   )}
                 >
                   {link.label}
