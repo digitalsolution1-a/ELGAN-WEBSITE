@@ -14,7 +14,7 @@ const details = [
   {
     icon: MapPin,
     title: 'Head Office',
-    lines: ['Victoria Island', 'Lagos, Nigeria'],
+    lines: ['0,Pelewura Crescent, Apapa, Lagos, Nigeria'],
   },
   {
     icon: Phone,
@@ -24,7 +24,7 @@ const details = [
   {
     icon: Mail,
     title: 'Email',
-    lines: ['info@elgan.com', 'projects@elgan.com'],
+    lines: ['info@elganintegrated.com'],
   },
   {
     icon: Clock,
