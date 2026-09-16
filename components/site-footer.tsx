@@ -73,7 +73,7 @@ export function SiteFooter() {
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[var(--gold)]" />
                 <span className="text-white/70">
-                  Victoria Island, Lagos, Nigeria
+                  10,Pelewura Crescent, Apapa, Lagos, Nigeria
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -84,8 +84,8 @@ export function SiteFooter() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-[var(--gold)]" />
-                <a href="mailto:info@elgan.com" className="text-white/70 hover:text-white">
-                  info@elgan.com
+                <a href="mailto:info@elganintegrated.com" className="text-white/70 hover:text-white">
+                  info@elganintegrated.com
                 </a>
               </li>
             </ul>
