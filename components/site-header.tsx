@@ -45,7 +45,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3 text-white">
           <Image
-            src="/images/Elgan Logo 2.jpg"
+            src="/images/Elgan Logo 2.png"
             alt="ELGAN Logo"
             width={140}
             height={40}
