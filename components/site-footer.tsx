@@ -25,7 +25,7 @@ const columns = [
 
 export function SiteFooter() {
   return (
-    <footer className="bg-[var(--foreground)] text-white/80 border-t border-neutral-800">
+    <footer className="bg-[var(--navy-deep)] text-white/80">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-4">
           <div className="lg:col-span-1">
@@ -54,7 +54,7 @@ export function SiteFooter() {
                   <li key={link.label}>
                     <Link
                       href={link.href}
-                      className="text-sm text-white/70 transition-colors hover:text-[var(--brand-teal)]"
+                      className="text-sm text-white/70 transition-colors hover:text-white"
                     >
                       {link.label}
                     </Link>
