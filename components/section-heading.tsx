@@ -25,11 +25,11 @@ export function SectionHeading({
     >
       <span
         className={cn(
-          'inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-[var(--gold)]',
+          'inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-[var(--brand-teal)]',
           align === 'center' && 'justify-center',
         )}
       >
-        <span className="h-px w-8 bg-[var(--gold)]" />
+        <span className="h-px w-8 bg-[var(--brand-teal)]" />
         {eyebrow}
       </span>
       <h2
