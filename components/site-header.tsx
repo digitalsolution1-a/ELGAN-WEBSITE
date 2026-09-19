@@ -62,14 +62,14 @@ export function SiteHeader() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  'relative px-4 py-2 text-sm font-medium tracking-wide text-neutral-700 transition-colors hover:text-neutral-950',
-                  active && 'text-neutral-950 font-semibold',
+                  'relative px-4 py-2 text-sm font-medium tracking-wide text-neutral-700 transition-colors hover:text-[var(--brand-teal)]',
+                  active && 'text-[var(--brand-teal)] font-semibold',
                 )}
               >
                 {link.label}
                 <span
                   className={cn(
-                    'absolute inset-x-4 -bottom-0.5 h-0.5 origin-left scale-x-0 bg-[var(--gold)] transition-transform duration-300',
+                    'absolute inset-x-4 -bottom-0.5 h-0.5 origin-left scale-x-0 bg-[var(--brand-teal)] transition-transform duration-300',
                     active && 'scale-x-100',
                   )}
                 />
@@ -79,7 +79,10 @@ export function SiteHeader() {
         </nav>
 
         <div className="hidden lg:block">
-          <LinkButton href="/contact" variant="gold" className="h-11">
+          <LinkButton 
+            href="/contact" 
+            className="h-11 bg-[var(--brand-red)] text-white hover:bg-[var(--brand-red)]/90"
+          >
             <Phone />
             Request Consultation
           </LinkButton>
@@ -106,15 +109,18 @@ export function SiteHeader() {
                   key={link.href}
                   href={link.href}
                   className={cn(
-                    'rounded-md px-4 py-3 text-base font-medium text-neutral-700 transition-colors hover:bg-neutral-200/50 hover:text-neutral-950',
-                    active && 'bg-neutral-200/60 text-neutral-950 font-semibold',
+                    'rounded-md px-4 py-3 text-base font-medium text-neutral-700 transition-colors hover:bg-neutral-200/50 hover:text-[var(--brand-teal)]',
+                    active && 'bg-neutral-200/60 text-[var(--brand-teal)] font-semibold',
                   )}
                 >
                   {link.label}
                 </Link>
               )
             })}
-            <LinkButton href="/contact" className="mt-3 bg-[var(--brand-red)] text-white hover:bg-[var(--brand-red)]/90">
+            <LinkButton 
+              href="/contact" 
+              className="mt-3 bg-[var(--brand-red)] text-white hover:bg-[var(--brand-red)]/90"
+            >
               Request Consultation
             </LinkButton>
           </nav>
