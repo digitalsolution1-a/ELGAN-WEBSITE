@@ -41,7 +41,7 @@ export default function ServicesPage() {
                   />
                 </div>
                 <div className={cn(reversed && 'lg:order-1')}>
-                  <span className="flex h-14 w-14 items-center justify-center rounded-md bg-[var(--navy)] text-[var(--gold)]">
+                  <span className="flex h-14 w-14 items-center justify-center rounded-md bg-[var(--brand-teal))] text-[var(--brand-teal)]">
                     <Icon className="h-7 w-7" strokeWidth={1.75} />
                   </span>
                   <h2 className="mt-6 font-serif text-3xl text-[var(--navy)]">{service.title}</h2>
@@ -51,7 +51,7 @@ export default function ServicesPage() {
                   <ul className="mt-6 grid gap-3 sm:grid-cols-2">
                     {service.capabilities.map((cap) => (
                       <li key={cap} className="flex items-start gap-3">
-                        <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[var(--gold)]" />
+                        <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[var(--brand-teal)]" />
                         <span className="text-sm text-foreground">{cap}</span>
                       </li>
                     ))}
