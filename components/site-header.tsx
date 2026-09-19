@@ -114,7 +114,7 @@ export function SiteHeader() {
                 </Link>
               )
             })}
-            <LinkButton href="/contact" variant="gold" className="mt-3">
+            <LinkButton href="/contact" className="mt-3 bg-[var(--brand-red)] text-white hover:bg-[var(--brand-red)]/90">
               Request Consultation
             </LinkButton>
           </nav>
