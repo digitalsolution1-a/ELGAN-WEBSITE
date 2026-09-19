@@ -5,7 +5,7 @@ import { Send, CheckCircle2 } from 'lucide-react'
 import { services } from '@/lib/content'
 
 const inputClass =
-  'w-full rounded-md border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition-colors placeholder:text-muted-foreground focus:border-[var(--gold)] focus:ring-2 focus:ring-[var(--gold)]/30'
+  'w-full rounded-md border border-border bg-background px-4 py-3 text-sm text-foreground outline-none transition-colors placeholder:text-muted-foreground focus:border-[var(--gold)] focus:ring-2 focus:ring-[var(--brand-teal)]/30'
 const labelClass = 'mb-1.5 block text-sm font-medium text-[var(--navy)]'
 
 export function ContactForm() {
@@ -123,7 +123,7 @@ export function ContactForm() {
 
       <button
         type="submit"
-        className="mt-6 inline-flex h-12 w-full items-center justify-center gap-2 rounded-md bg-[var(--gold)] px-6 text-sm font-semibold text-[var(--navy)] transition-colors hover:bg-[var(--brand-teal)]/90 sm:w-auto"
+        className="mt-6 inline-flex h-12 w-full items-center justify-center gap-2 rounded-md bg-[var(--brand-teal)] px-6 text-sm font-semibold text-[var(--navy)] transition-colors hover:bg-[var(--brand-teal)]/90 sm:w-auto"
       >
         <Send className="h-4 w-4" />
         Send Message
