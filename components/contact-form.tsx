@@ -123,7 +123,7 @@ export function ContactForm() {
 
       <button
         type="submit"
-        className="mt-6 inline-flex h-12 w-full items-center justify-center gap-2 rounded-md bg-[var(--gold)] px-6 text-sm font-semibold text-[var(--navy)] transition-colors hover:bg-[var(--gold)]/90 sm:w-auto"
+        className="mt-6 inline-flex h-12 w-full items-center justify-center gap-2 rounded-md bg-[var(--gold)] px-6 text-sm font-semibold text-[var(--navy)] transition-colors hover:bg-[var(--brand-teal)]/90 sm:w-auto"
       >
         <Send className="h-4 w-4" />
         Send Message
