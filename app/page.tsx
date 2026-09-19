@@ -51,7 +51,8 @@ export default function HomePage() {
                   className="h-full w-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 hidden rounded-lg bg-[var(--gold)] px-8 py-6 text-[var(--navy)] shadow-xl sm:block">
+              {/* Badge background updated to brand-teal */}
+              <div className="absolute -bottom-6 -right-6 hidden rounded-lg bg-[var(--brand-teal)] px-8 py-6 text-white shadow-xl sm:block">
                 <p className="font-serif text-3xl">15+</p>
                 <p className="text-xs font-semibold uppercase tracking-wide">Years of Service</p>
               </div>
@@ -71,12 +72,17 @@ export default function HomePage() {
                     delay={i * 80}
                     className="flex items-start gap-3"
                   >
-                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[var(--gold)]" />
+                    {/* Checkmark color updated to brand-teal */}
+                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[var(--brand-teal)]" />
                     <span className="text-sm leading-relaxed text-foreground">{point}</span>
                   </Reveal>
                 ))}
               </ul>
-              <LinkButton href="/about" variant="navy" className="mt-9">
+              {/* Button background updated to brand-teal */}
+              <LinkButton 
+                href="/about" 
+                className="mt-9 bg-[var(--brand-teal)] text-white hover:bg-[var(--brand-teal)]/90"
+              >
                 More About Us
                 <ArrowRight />
               </LinkButton>
