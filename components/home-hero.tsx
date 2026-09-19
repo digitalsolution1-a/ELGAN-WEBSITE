@@ -14,10 +14,10 @@ export function HomeHero() {
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pt-28 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <span className="inline-flex animate-fade-up items-center gap-2 rounded-full border border-[var(--gold)]/40 bg-[var(--gold)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--gold)]">
-            <ShieldCheck className="h-4 w-4" />
-            Government-Grade Solutions
-          </span>
+          <span className="inline-flex animate-fade-up items-center gap-2 rounded-full border border-[var(--brand-red)]/40 bg-[var(--brand-red)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand-red)]">
+  <ShieldCheck className="h-4 w-4" />
+  Government-Grade Solutions
+</span>
           <h1
             className="mt-6 animate-fade-up text-balance font-serif text-4xl leading-[1.1] text-white sm:text-5xl lg:text-6xl"
             style={{ animationDelay: '80ms' }}
