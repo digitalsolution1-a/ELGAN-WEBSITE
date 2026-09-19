@@ -36,7 +36,7 @@ export function HomeHero() {
             className="mt-9 flex animate-fade-up flex-col gap-4 sm:flex-row"
             style={{ animationDelay: '240ms' }}
           >
-            <LinkButton href="/services" className="bg-[var(--brand-red)] text-white hover:opacity-90">
+            <LinkButton href="/services" className="bg-[var(--brand-teal)] text-white hover:opacity-90">
               Explore Services
               <ArrowRight />
             </LinkButton>
