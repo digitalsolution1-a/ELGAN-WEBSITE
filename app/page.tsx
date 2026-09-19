@@ -118,10 +118,10 @@ export default function HomePage() {
                   delay={i * 100}
                   className="flex flex-col items-start rounded-lg border border-border bg-card p-8"
                 >
-                  <span className="flex h-12 w-12 items-center justify-center rounded-md bg-[var(--navy)] text-[var(--gold)]">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-md bg-[var(--brand-teal)] text-white">
                     <Icon className="h-6 w-6" strokeWidth={1.75} />
                   </span>
-                  <h3 className="mt-5 font-serif text-lg text-[var(--navy)]">{value.title}</h3>
+                  <h3 className="mt-5 font-serif text-lg text-[var(--brand-teal)]">{value.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                     {value.text}
                   </p>
