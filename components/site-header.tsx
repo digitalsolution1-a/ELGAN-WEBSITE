@@ -81,7 +81,7 @@ export function SiteHeader() {
         <div className="hidden lg:block">
           <LinkButton 
             href="/contact" 
-            className="h-11 bg-[var(--brand-red)] text-white hover:bg-[var(--brand-red)]/90"
+            className="h-11 bg-[var(--brand-teal)] text-white hover:bg-[var(--brand-teal)]/90"
           >
             <Phone />
             Request Consultation
@@ -119,7 +119,7 @@ export function SiteHeader() {
             })}
             <LinkButton 
               href="/contact" 
-              className="mt-3 bg-[var(--brand-red)] text-white hover:bg-[var(--brand-red)]/90"
+              className="mt-3 bg-[var(--brand-teal)] text-white hover:bg-[var(--brand-teal)]/90"
             >
               Request Consultation
             </LinkButton>
