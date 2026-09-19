@@ -47,7 +47,7 @@ export default function ContactPage() {
           <div className="grid gap-12 lg:grid-cols-5 lg:gap-16">
             <div className="lg:col-span-2">
               <Reveal>
-                <h2 className="font-serif text-2xl text-[var(--navy)]">Get in touch</h2>
+                <h2 className="font-serif text-2xl text-[var(--brand-teal)">Get in touch</h2>
                 <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
                   Reach out through any of the channels below or complete the form and our team will
                   respond promptly and in confidence.
