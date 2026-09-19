@@ -13,9 +13,9 @@ export function StatsBar() {
               className="flex flex-col items-center px-6 py-10 text-center"
             >
               <dt className="sr-only">{stat.label}</dt>
-              {/* Number and symbol updated to brand-red */}
-              <dd className="font-serif text-4xl text-[var(--brand-red)] lg:text-5xl">{stat.value}</dd>
-              <p className="mt-2 text-sm uppercase tracking-wide text-white/70">{stat.label}</p>
+              {/* Number and symbol updated to white */}
+              <dd className="font-serif text-4xl text-white lg:text-5xl">{stat.value}</dd>
+              <p className="mt-2 text-sm uppercase tracking-wide text-white">{stat.label}</p>
             </Reveal>
           ))}
         </dl>
