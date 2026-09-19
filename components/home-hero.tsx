@@ -14,7 +14,7 @@ export function HomeHero() {
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pt-28 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <span className="inline-flex animate-fade-up items-center gap-2 rounded-full border border-[var(--brand-red)]/40 bg-[var(--brand-red)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand-red)]">
+        <span className="inline-flex animate-fade-up items-center gap-2 rounded-full border border-[var(--brand-teal)]/40 bg-[var(--brand-teal)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand-teal)]">
   <ShieldCheck className="h-4 w-4" />
   Government-Grade Solutions
 </span>
