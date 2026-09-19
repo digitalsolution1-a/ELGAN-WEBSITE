@@ -70,19 +70,19 @@ export function SiteFooter() {
             </h3>
             <ul className="mt-5 space-y-4 text-sm">
               <li className="flex items-start gap-3">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand-red)]" />
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[var(--brand-teal)]" />
                 <span className="text-white/70">
                   10,Pelewura Crescent, Apapa, Lagos, Nigeria
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="h-4 w-4 shrink-0 text-[var(--brand-red)]" />
+                <Phone className="h-4 w-4 shrink-0 text-[var(--brand-teal)]" />
                 <a href="tel:+2340000000000" className="text-white/70 hover:text-white">
                   +234 (0) 000 000 0000
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail className="h-4 w-4 shrink-0 text-[var(--brand-red)]" />
+                <Mail className="h-4 w-4 shrink-0 text-[var(--brand-teal)]" />
                 <a href="mailto:info@elganintegrated.com" className="text-white/70 hover:text-white">
                   info@elganintegrated.com
                 </a>
