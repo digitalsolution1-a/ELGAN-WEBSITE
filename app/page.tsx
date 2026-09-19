@@ -97,6 +97,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="What We Do"
             title="Integrated capabilities across the security spectrum"
+            titleClassName="text-[var(--brand-teal)]"
             description="From protective engineering to strategic advisory, our services are designed to meet the demands of complex, high-stakes environments."
             align="center"
           />
