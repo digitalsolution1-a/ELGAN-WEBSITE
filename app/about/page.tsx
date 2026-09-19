@@ -103,7 +103,7 @@ export default function AboutPage() {
                   delay={i * 100}
                   className="rounded-lg border border-border bg-card p-8"
                 >
-                  <span className="flex h-14 w-14 items-center justify-center rounded-md bg-[var(--navy)] text-[var(--gold)]">
+                  <span className="flex h-14 w-14 items-center justify-center rounded-md bg-[var(--navy)] text-[var(--brand-teal)]">
                     <Icon className="h-7 w-7" strokeWidth={1.75} />
                   </span>
                   <h3 className="mt-6 font-serif text-xl text-[var(--navy)]">{pillar.title}</h3>
@@ -136,10 +136,10 @@ export default function AboutPage() {
                   delay={i * 100}
                   className="flex flex-col items-center text-center"
                 >
-                  <span className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-[var(--gold)] text-[var(--navy)]">
+                  <span className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-[var(--gold)] text-[var(--brand-teal)]">
                     <Icon className="h-7 w-7" strokeWidth={1.75} />
                   </span>
-                  <h3 className="mt-5 font-serif text-lg text-[var(--navy)]">{item.title}</h3>
+                  <h3 className="mt-5 font-serif text-lg text-[var(--brand-teal)]">{item.title}</h3>
                   <p className="mt-2 max-w-xs text-sm leading-relaxed text-muted-foreground">
                     {item.text}
                   </p>
