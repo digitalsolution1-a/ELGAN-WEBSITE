@@ -136,7 +136,7 @@ export default function AboutPage() {
                   delay={i * 100}
                   className="flex flex-col items-center text-center"
                 >
-                  <span className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-[var(--gold)] text-[var(--brand-teal)]">
+                  <span className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-[var(--brand-teal)] text-[var(--brand-teal)]">
                     <Icon className="h-7 w-7" strokeWidth={1.75} />
                   </span>
                   <h3 className="mt-5 font-serif text-lg text-[var(--brand-teal)]">{item.title}</h3>
