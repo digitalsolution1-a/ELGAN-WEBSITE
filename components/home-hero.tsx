@@ -36,11 +36,11 @@ export function HomeHero() {
             className="mt-9 flex animate-fade-up flex-col gap-4 sm:flex-row"
             style={{ animationDelay: '240ms' }}
           >
-            <LinkButton href="/services" variant="gold">
+            <LinkButton href="/services" variant="default">
               Explore Services
               <ArrowRight />
             </LinkButton>
-            <LinkButton href="/projects" variant="outline-light">
+            <LinkButton href="/projects" variant="accent">
               View Our Projects
             </LinkButton>
           </div>
