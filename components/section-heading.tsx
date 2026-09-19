@@ -35,7 +35,7 @@ export function SectionHeading({
       <h2
         className={cn(
           'mt-5 text-balance font-serif text-3xl leading-tight sm:text-4xl',
-          tone === 'dark' ? 'text-[var(--navy)]' : 'text-white',
+          tone === 'dark' ? 'text-[var(--brand-teal)]' : 'text-white',
         )}
       >
         {title}
