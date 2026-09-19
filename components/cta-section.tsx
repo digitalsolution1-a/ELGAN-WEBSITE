@@ -14,10 +14,10 @@ export function CtaSection() {
       <div className="absolute inset-0 bg-[var(--navy-deep)]/85" />
       <div className="relative mx-auto max-w-5xl px-4 py-24 text-center sm:px-6 lg:px-8">
         <Reveal>
-          <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-[var(--gold)]">
-            <span className="h-px w-8 bg-[var(--gold)]" />
+          <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-[var(--brand-teal)]">
+            <span className="h-px w-8 bg-[var(--brand-teal)]" />
             Partner With ELGAN
-            <span className="h-px w-8 bg-[var(--gold)]" />
+            <span className="h-px w-8 bg-[var(--brand-teal)]" />
           </span>
           <h2 className="mx-auto mt-6 max-w-3xl text-balance font-serif text-3xl leading-tight text-white sm:text-4xl lg:text-5xl">
             Ready to secure your mission-critical operations?
