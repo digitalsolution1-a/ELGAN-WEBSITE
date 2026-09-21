@@ -72,19 +72,13 @@ export default function AboutPage() {
               <SectionHeading
                 eyebrow="Our Story"
                 title="Built on trust, engineered for resilience"
-                description="For over fifteen years, ELGAN has partnered with government agencies, the military, maritime authorities, and energy operators to deliver mission-critical security and engineering programmes."
+                description="Our multidisciplinary team combines seasoned engineers, security professionals, and policy consultants who understand the unique operational challenges of the Nigerian and West African maritime environment. We collaborate closely with federal agencies, military establishments, and private-sector clients to develop bespoke solutions that meet the highest national and international standards"
               />
               <div className="mt-6 space-y-4 text-sm leading-relaxed text-muted-foreground">
                 <p>
-                  From anti-ballistic vessel protection to secure document production, our work sits
-                  at the intersection of advanced engineering and operational security. We combine
-                  technical depth with a rigorous commitment to compliance and confidentiality.
+                  Since our founding, Elgan Integrated Services has earned a strong reputation for technical excellence, delivery reliability, and professional integrity. We are committed to supporting Nigeria’s maritime security architecture and contributing to the nation’s economic and infrastructural development through innovative, value-driven service delivery.
                 </p>
-                <p>
-                  Our teams bring together engineers, security professionals, and strategic
-                  advisors who understand the high-stakes environments our clients operate in and
-                  the standards their missions demand.
-                </p>
+                
               </div>
             </div>
           </div>
