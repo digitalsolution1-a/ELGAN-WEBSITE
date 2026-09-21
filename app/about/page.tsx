@@ -54,7 +54,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About ELGAN"
         title="Precision engineering for a more secure world"
-        description="Elgan Integrated Services Limited is a Nigerian company specialising in security and defence engineering, maritime protection, and strategic consultancy. Headquartered in Apapa, Lagos — Nigeria’s principal maritime hub — we deliver high-quality, technically rigorous solutions that protect personnel, vessels, and critical national infrastructure.
+        description="Elgan Integrated Services Limited is a Nigerian company specialising in security and defence engineering, maritime protection, and strategic consultancy. Headquartered in Apapa, Lagos — Nigeria’s principal maritime hub — we deliver high-quality, technically rigorous solutions that protect personnel, vessels, and critical national infrastructure."
       />
 
       {/* Story */}
