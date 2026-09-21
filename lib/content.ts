@@ -112,12 +112,12 @@ export interface Project {
 export const projects: Project[] = [
   {
     slug: 'nimasa-anti-ballistic-gun-shields',
-    title: 'NIMASA Anti-ballistic Gun Shields',
+    title: 'Design & Construction of 12.7 mm Antiballistic Gun Shields',
     client: 'NIMASA',
-    category: 'Maritime Security Engineering',
+    category: 'Maritime Security / Defence Engineering',
     image: '/images/project-shields.png',
     summary:
-      'Design and fabrication of anti-ballistic gun shields for national maritime enforcement vessels, engineered to withstand high-velocity threats.',
+      'Elgan engineered and fabricated antiballistic gun shields rated to withstand 12.7 mm-calibre projectiles, then installed them on NIMASA enforcement patrol boats. The project significantly enhanced crew survivability and combat readiness, enabling NIMASA officers to conduct maritime law-enforcement operations with greater confidence across Nigerian territorial waters.',
   },
   {
     slug: 'military-patrol-vessel-protection',
