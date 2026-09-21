@@ -25,7 +25,7 @@ export const services: Service[] = [
     summary:
       'Protective engineering for vessels and offshore assets, from armored plating to integrated defence systems.',
     description:
-      'We design and fabricate advanced protective systems for maritime platforms, including anti-ballistic shielding, vessel hardening, and integrated surveillance. Every solution is engineered to naval and international maritime standards.',
+      'Design, fabrication and installation of ballistic protection systems on naval and law-enforcement patrol vessels operating across Nigerian waterways.',
     image: '/images/project-vessel.png',
     capabilities: [
       'Anti-ballistic gun shields',
@@ -41,7 +41,7 @@ export const services: Service[] = [
     summary:
       'Tamper-evident credentials and official documents with layered anti-counterfeit security features.',
     description:
-      'Our secure production facilities deliver high-integrity credentials, certificates, and official documents with holographic, microprint, and forensic security features that meet government verification requirements.',
+      'Conceptualisation, design and high-security printing of tamper-resistant official documents for government agencies.',
     image: '/images/project-documents.png',
     capabilities: [
       'Holographic & microprint security',
@@ -57,7 +57,7 @@ export const services: Service[] = [
     summary:
       'Reliable procurement and logistics of certified defence and tactical security equipment.',
     description:
-      'We source, certify, and deliver defence and tactical equipment through vetted supply chains, ensuring full compliance, traceability, and operational readiness for government and security clients.',
+      'Procurement and supply of personal protective equipment, tactical field gear and specialist defence hardware to military and security establishments.',
     image: '/images/service-defence.png',
     capabilities: [
       'Vetted procurement channels',
@@ -73,7 +73,7 @@ export const services: Service[] = [
     summary:
       'Environmental impact assessment and waste management for maritime and energy operations.',
     description:
-      'Our specialists deliver environmental impact assessments, offshore waste management, and regulatory compliance programmes that protect ecosystems while keeping operations running responsibly.',
+      'Business-case development, feasibility studies, and independent technical assessment for offshore waste reception and environmental compliance infrastructure.',
     image: '/images/service-environmental.png',
     capabilities: [
       'Environmental impact assessment',
@@ -89,7 +89,7 @@ export const services: Service[] = [
     summary:
       'High-level advisory on security strategy, risk, and operational planning for complex environments.',
     description:
-      'We advise government agencies, military, and enterprise clients on security strategy, threat assessment, and operational planning, translating intelligence into decisive, actionable programmes.',
+      'Policy advisory, regulatory analysis and operational planning for maritime infrastructure, security frameworks and governmental initiatives.',
     image: '/images/service-advisory.png',
     capabilities: [
       'Security strategy & doctrine',
