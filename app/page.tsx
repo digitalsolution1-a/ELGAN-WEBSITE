@@ -117,7 +117,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Why Choose Us"
-            title="Built for demanding mandates and high-stakes operations"
+            title=""
             description="Our proven framework combines strict technical compliance with deep operational reliability."
             align="center"
           />
