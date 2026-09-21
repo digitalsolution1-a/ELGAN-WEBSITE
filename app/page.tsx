@@ -112,10 +112,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Values */}
+      {/* Values / Why Choose Us */}
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-8 md:grid-cols-3">
+          <SectionHeading
+            eyebrow="Why Choose Us"
+            title="Built for demanding mandates and high-stakes operations"
+            description="Our proven framework combines strict technical compliance with deep operational reliability."
+            align="center"
+          />
+          <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {values.map((value, i) => {
               const Icon = value.icon
               return (
