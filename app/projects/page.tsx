@@ -15,6 +15,7 @@ const highlights = [
   { value: 'Design & Construction of 12.7 mm Antiballistic Gun Shields', label: 'Nigerian Maritime Administration and Safety Agency (NIMASA)' },
   { value: 'Design & Printing of Security Documents', label: 'Nigerian Maritime Administration and Safety Agency (NIMASA)' },
   { value: 'Design & Construction of 12.7 mm Antiballistic Gun Shields', label: 'Nigerian Military' },
+  { value: 'Development of Business Case — Offshore Waste Reception Facility', label: 'Nigerian Maritime Administration and Safety Agency (NIMASA)' },
 ]
 
 export default function ProjectsPage() {
