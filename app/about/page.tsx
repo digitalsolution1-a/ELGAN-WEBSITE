@@ -55,11 +55,6 @@ export default function AboutPage() {
         eyebrow="About ELGAN"
         title="Precision engineering for a more secure world"
         description="Elgan Integrated Services Limited is a Nigerian company specialising in security and defence engineering, maritime protection, and strategic consultancy. Headquartered in Apapa, Lagos — Nigeria’s principal maritime hub — we deliver high-quality, technically rigorous solutions that protect personnel, vessels, and critical national infrastructure.
-
-Our multidisciplinary team combines seasoned engineers, security professionals, and policy consultants who understand the unique operational challenges of the Nigerian and West African maritime environment. We collaborate closely with federal agencies, military establishments, and private-sector clients to develop bespoke solutions that meet the highest national and international standards.
-
-Since our founding, Elgan Integrated Services has earned a strong reputation for technical excellence, delivery reliability, and professional integrity. We are committed to supporting Nigeria’s maritime security architecture and contributing to the nation’s economic and infrastructural development through innovative, value-driven service delivery.
-"
       />
 
       {/* Story */}
