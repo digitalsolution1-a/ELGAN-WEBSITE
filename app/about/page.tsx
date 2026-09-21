@@ -16,12 +16,12 @@ const pillars = [
   {
     icon: Target,
     title: 'Our Mission',
-    text: 'To deliver dependable, government-grade security and engineering solutions that protect people, assets, and national interests.',
+    text: 'To deliver innovative, reliable, and cost-effective security and maritime services by combining technical expertise with deep knowledge of the Nigerian operating environment — creating lasting value for clients and stakeholders',
   },
   {
     icon: Eye,
     title: 'Our Vision',
-    text: 'To be the most trusted integrated security, defence, and maritime engineering partner across the region.',
+    text: 'To be West Africa’s foremost provider of integrated security, defence engineering, and maritime consultancy — delivering excellence that safeguards lives, assets, and national sovereignty.',
   },
   {
     icon: Gem,
