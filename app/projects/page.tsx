@@ -5,12 +5,6 @@ import { ProjectsGrid } from '@/components/projects-grid'
 import { CtaSection } from '@/components/cta-section'
 import { Reveal } from '@/components/reveal'
 
-export const metadata: Metadata = {
-  title: 'Projects',
-  description:
-    'The following engagements reflect Elgan’s executed work across the security, defence, maritime, and environmental sectors. Each project demonstrates our commitment to technical rigour, client partnership, and on-time delivery.',
-}
-
 export default function ProjectsPage() {
   return (
     <>
