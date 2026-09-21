@@ -8,7 +8,7 @@ import { Reveal } from '@/components/reveal'
 export const metadata: Metadata = {
   title: 'Projects',
   description:
-    'Selected ELGAN projects including NIMASA anti-ballistic gun shields, military patrol vessel protection, security document production, and offshore waste reception facilities.',
+    'The following engagements reflect Elgan’s executed work across the security, defence, maritime, and environmental sectors. Each project demonstrates our commitment to technical rigour, client partnership, and on-time delivery.',
 }
 
 const highlights = [
