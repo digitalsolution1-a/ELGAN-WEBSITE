@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 }
 
 const highlights = [
-  { value: 'NIMASA', label: 'Maritime Enforcement' },
-  { value: 'Defence', label: 'Vessel Protection' },
-  { value: 'Oil & Gas', label: 'Environmental Engineering' },
+  { value: 'Design & Construction of 12.7 mm Antiballistic Gun Shields', label: 'Nigerian Maritime Administration and Safety Agency (NIMASA)' },
+  { value: 'Design & Printing of Security Documents', label: 'Nigerian Maritime Administration and Safety Agency (NIMASA)' },
+  { value: 'Design & Construction of 12.7 mm Antiballistic Gun Shields', label: 'Nigerian Military' },
 ]
 
 export default function ProjectsPage() {
