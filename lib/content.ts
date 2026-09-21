@@ -155,6 +155,15 @@ export const projects: Project[] = [
     summary:
       'Elgan procured and delivered a comprehensive range of personal protective and tactical equipment — including body armour, ballistic helmets, load-bearing vests and specialist field gear — to security and military clients. All items met applicable national and international defence and safety standards, ensuring operational readiness in the field.',
   },
+  {
+    slug: 'Independent Technical Assessor ',
+    title: 'Offshore Waste Reception Facility',
+    client: 'NIMASA',
+    category: 'Independent Technical Assessor',
+    image: '/images/project-waste.png',
+    summary:
+      'Following the business-case engagement, Elgan was retained as an independent technical assessor for the offshore waste reception facility project. In this capacity, Elgan provided an objective evaluation of design proposals, operational frameworks and regulatory-compliance mechanisms, ensuring the facility concept fully met NIMASA’s strategic objectives and international environmental requirements.',
+  },
 ]
 
 export const stats = [
