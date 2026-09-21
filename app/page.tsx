@@ -11,18 +11,23 @@ import { Reveal } from '@/components/reveal'
 const values = [
   {
     icon: Award,
-    title: 'Government-Grade Standards',
-    text: 'Every engagement is delivered to naval, defence, and international compliance requirements.',
+    title: 'Proven Government Track Record',
+    text: 'Repeated engagements with NIMASA and the Nigerian Military demonstrate our ability to meet the demanding standards of federal agencies and armed forces.',
   },
   {
     icon: Users,
-    title: 'Specialist Expertise',
-    text: 'Multidisciplinary engineers, security professionals, and strategic advisors under one roof.',
+    title: 'End-to-End Capability',
+    text: 'From ballistic engineering and secure document production to environmental consultancy and independent assessment — complete solutions under one roof.',
   },
   {
     icon: Globe2,
-    title: 'Trusted Across Sectors',
-    text: 'Serving government agencies, military, maritime bodies, and oil & gas operators.',
+    title: 'Technical Precision',
+    text: 'Our antiballistic and security solutions are engineered to exact calibre, threat-level and regulatory specifications, ensuring maximum performance in the field.',
+  },
+  {
+    icon: Globe2,
+    title: 'Deep Local Expertise',
+    text: 'We combine international best practices with intimate knowledge of the Nigerian regulatory environment, maritime landscape and security dynamics.',
   },
 ]
 
