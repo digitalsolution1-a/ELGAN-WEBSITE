@@ -23,7 +23,7 @@ export default function ProjectsPage() {
       <PageHero
         eyebrow="Our Projects"
         title="Delivering mission-critical outcomes"
-        description="A selection of programmes where ELGAN's engineering and security expertise has protected national assets, personnel, and the environment."
+        description="The following engagements reflect Elgan’s executed work across the security, defence, maritime, and environmental sectors. Each project demonstrates our commitment to technical rigour, client partnership, and on-time delivery."
       />
 
       <section className="border-b border-border bg-muted">
