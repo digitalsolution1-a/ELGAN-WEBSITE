@@ -5,6 +5,21 @@ import { ProjectsGrid } from '@/components/projects-grid'
 import { CtaSection } from '@/components/cta-section'
 import { Reveal } from '@/components/reveal'
 
+export const metadata: Metadata = {
+  title: 'Projects',
+  description:
+    'The following engagements reflect Elgan’s executed work across the security, defence, maritime, and environmental sectors. Each project demonstrates our commitment to technical rigour, client partnership, and on-time delivery.',
+}
+
+const highlights = [
+  { value: 'Design & Construction of 12.7 mm Antiballistic Gun Shields', label: 'Nigerian Maritime Administration and Safety Agency (NIMASA)' },
+  { value: 'Design & Printing of Security Documents', label: 'Nigerian Maritime Administration and Safety Agency (NIMASA)' },
+  { value: 'Design & Construction of 12.7 mm Antiballistic Gun Shields', label: 'Nigerian Military' },
+  { value: 'Development of Business Case — Offshore Waste Reception Facility', label: 'Nigerian Maritime Administration and Safety Agency (NIMASA)' },
+  { value: 'Supply of Security & Defence Personal Protective Gear', label: 'Government Security Agencies and Military Establishments' },
+  { value: 'Independent Technical Assessor — Offshore Waste Reception Facility', label: 'Nigerian Maritime Administration and Safety Agency (NIMASA)' },
+]
+
 export default function ProjectsPage() {
   return (
     <>
