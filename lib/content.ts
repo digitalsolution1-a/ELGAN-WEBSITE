@@ -124,7 +124,7 @@ export const projects: Project[] = [
     title: 'Design & Printing of Security Documents',
     client: 'NIMASA',
     category: 'Security Document Production',
-    image: '/images/project-vessel.png',
+    image: '/images/securityprinting.png',
     summary:
       'Elgan designed and produced a range of high-security official documents for NIMASA, incorporating advanced anti-counterfeiting features such as security inks, micro-printing, and serialised numbering. The documents underpin the agency’s regulatory, certification and identity-verification functions across Nigeria’s maritime sector.',
   },
@@ -133,7 +133,7 @@ export const projects: Project[] = [
     title: 'Design & Construction of 12.7 mm Antiballistic Gun Shields',
     client: 'Nigerian Military',
     category: 'Defence Engineering / Military',
-    image: '/images/project-documents.png',
+    image: '/images/balistic.png',
     summary:
       'Drawing on its NIMASA experience, Elgan executed a parallel antiballistic gun-shield programme for Nigerian military patrol vessels. Shields were engineered to exacting military specifications, improving the operational survivability of naval personnel engaged in riverine and coastal defence, counter-piracy, and maritime interdiction missions.',
   },
@@ -142,7 +142,7 @@ export const projects: Project[] = [
     title: 'Offshore Waste Reception Facility',
     client: 'NIMASA',
     category: 'Environmental Engineering',
-    image: '/images/project-waste.png',
+    image: '/images/offshorewaste.png',
     summary:
       'Elgan developed a comprehensive business case for the establishment of an offshore waste reception facility under the NIMASA regulatory framework. The scope covered market analysis, financial modelling, environmental impact assessment, regulatory alignment with MARPOL conventions, and a detailed operational plan designed to support Nigeria’s compliance with international maritime environmental standards.',
   },
@@ -160,7 +160,7 @@ export const projects: Project[] = [
     title: 'Offshore Waste Reception Facility',
     client: 'NIMASA',
     category: 'Independent Technical Assessor',
-    image: '/images/project-waste.png',
+    image: '/images/offshorewaste.png',
     summary:
       'Following the business-case engagement, Elgan was retained as an independent technical assessor for the offshore waste reception facility project. In this capacity, Elgan provided an objective evaluation of design proposals, operational frameworks and regulatory-compliance mechanisms, ensuring the facility concept fully met NIMASA’s strategic objectives and international environmental requirements.',
   },
