@@ -42,7 +42,7 @@ export const services: Service[] = [
       'Tamper-evident credentials and official documents with layered anti-counterfeit security features.',
     description:
       'Conceptualisation, design and high-security printing of tamper-resistant official documents for government agencies.',
-    image: '/images/project-documents.png',
+    image: '/images/securityprinting.png',
     capabilities: [
       'Holographic & microprint security',
       'Tamper-evident credentials',
