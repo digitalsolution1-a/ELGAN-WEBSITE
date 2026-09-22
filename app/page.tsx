@@ -51,7 +51,7 @@ export default function HomePage() {
             <Reveal className="relative">
               <div className="overflow-hidden rounded-lg">
                 <img
-                  src="/images/elganengineers.jpeg"
+                  src="/images/elganengineers2.jpeg"
                   alt="ELGAN engineers and security consultants reviewing maritime plans"
                   className="h-full w-full object-cover"
                 />
