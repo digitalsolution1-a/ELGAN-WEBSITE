@@ -28,7 +28,7 @@ export function HomeHero() {
             className="mt-6 max-w-xl animate-fade-up text-pretty text-lg leading-relaxed text-white/75"
             style={{ animationDelay: '160ms' }}
           >
-            Elgan Integrated Services Limited is a Nigerian company specialising in security and defence engineering, maritime protection, and strategic consultancy. Headquartered in Apapa, Lagos — Nigeria’s principal maritime hub — we deliver high-quality, technically rigorous solutions that protect personnel, vessels, and critical national infrastructure
+            Elgan Integrated Services Limited is a Nigerian company specialising in security and defence engineering, maritime protection, and strategic consultancy. Headquartered in Apapa, Lagos,Nigeria’s principal maritime hub. We deliver high-quality, technically rigorous solutions that protect personnel, vessels, and critical national infrastructure
           </p>
           <div
             className="mt-9 flex animate-fade-up flex-col gap-4 sm:flex-row"
