@@ -67,7 +67,7 @@ export default function HomePage() {
               <SectionHeading
                 eyebrow="Who We Are"
                 title="A trusted partner in security, defence, and maritime engineering"
-                description="ELGAN Integrated Services Limited combines deep engineering capability with operational security expertise to protect the assets, waters, and institutions that nations depend on."
+                description="ELGAN Integrated Limited combines deep engineering capability with operational security expertise to protect the assets, waters, and institutions that nations depend on."
               />
               <ul className="mt-8 grid gap-4 sm:grid-cols-2">
                 {aboutPoints.map((point, i) => (
