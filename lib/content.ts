@@ -167,8 +167,8 @@ export const projects: Project[] = [
 ]
 
 export const stats = [
-  { value: '15+', label: 'Years of Service' },
-  { value: '120+', label: 'Projects Delivered' },
-  { value: '40+', label: 'Government & Enterprise Clients' },
+  { value: '10+', label: 'Years of Service' },
+  { value: '20+', label: 'Projects Delivered' },
+  { value: '20+', label: 'Government & Enterprise Clients' },
   { value: '100%', label: 'Compliance Record' },
 ]
