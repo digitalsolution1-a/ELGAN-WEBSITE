@@ -74,7 +74,7 @@ export const services: Service[] = [
       'Environmental impact assessment and waste management for maritime and energy operations.',
     description:
       'Business-case development, feasibility studies, and independent technical assessment for offshore waste reception and environmental compliance infrastructure.',
-    image: '/images/service-environmental.png',
+    image: '/images/offshorewaste.png',
     capabilities: [
       'Environmental impact assessment',
       'Offshore waste reception',
