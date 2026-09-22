@@ -23,7 +23,7 @@ export const services: Service[] = [
     title: 'Maritime Security Engineering',
     icon: Anchor,
     summary:
-      'Protective engineering for vessels and offshore assets, from armored plating to integrated defence systems.',
+      'Design, fabrication and installation of ballistic protection systems on naval and law-enforcement patrol vessels operating across Nigerian waterways.',
     description:
       'Design, fabrication and installation of ballistic protection systems on naval and law-enforcement patrol vessels operating across Nigerian waterways.',
     image: '/images/project-vessel.png',
@@ -39,7 +39,7 @@ export const services: Service[] = [
     title: 'Security Document Production',
     icon: FileLock2,
     summary:
-      'Tamper-evident credentials and official documents with layered anti-counterfeit security features.',
+      'Conceptualisation, design and high-security printing of tamper-resistant official documents for government agencies.',
     description:
       'Conceptualisation, design and high-security printing of tamper-resistant official documents for government agencies.',
     image: '/images/securityprinting.png',
@@ -55,7 +55,7 @@ export const services: Service[] = [
     title: 'Defence Equipment Supply',
     icon: ShieldCheck,
     summary:
-      'Reliable procurement and logistics of certified defence and tactical security equipment.',
+      'Procurement and supply of personal protective equipment, tactical field gear and specialist defence hardware to military and security establishments.',
     description:
       'Procurement and supply of personal protective equipment, tactical field gear and specialist defence hardware to military and security establishments.',
     image: '/images/service-defence.png',
@@ -68,10 +68,10 @@ export const services: Service[] = [
   },
   {
     slug: 'environmental-consultancy',
-    title: 'Environmental Consultancy',
+    title: 'Environmental & Marine Consultancy',
     icon: Leaf,
     summary:
-      'Environmental impact assessment and waste management for maritime and energy operations.',
+      'Business-case development, feasibility studies, and independent technical assessment for offshore waste reception and environmental compliance infrastructure.',
     description:
       'Business-case development, feasibility studies, and independent technical assessment for offshore waste reception and environmental compliance infrastructure.',
     image: '/images/offshorewaste.png',
@@ -87,7 +87,7 @@ export const services: Service[] = [
     title: 'Strategic Advisory Services',
     icon: Compass,
     summary:
-      'High-level advisory on security strategy, risk, and operational planning for complex environments.',
+      'Policy advisory, regulatory analysis and operational planning for maritime infrastructure, security frameworks and governmental initiatives.',
     description:
       'Policy advisory, regulatory analysis and operational planning for maritime infrastructure, security frameworks and governmental initiatives.',
     image: '/images/elganadvisory.jpeg',
