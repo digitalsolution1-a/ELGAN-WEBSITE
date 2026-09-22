@@ -9,7 +9,7 @@ import { Reveal } from '@/components/reveal'
 export const metadata: Metadata = {
   title: 'About Us',
   description:
-    'ELGAN Integrated Services Limited is a trusted provider of security, defence, and maritime engineering solutions for government, military, and energy clients.',
+    'ELGAN Integrated Limited is a trusted provider of security, defence, and maritime engineering solutions for government, military, and energy clients.',
 }
 
 const pillars = [
