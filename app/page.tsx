@@ -149,8 +149,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
             <SectionHeading
-              eyebrow="Selected Work"
-              title="Projects that protect what matters"
+              eyebrow="Project Portfolio"
+              title="The following engagements reflect Elgan’s executed work across the security, defence, maritime, and environmental sectors."
             />
             <LinkButton href="/projects" variant="outline-dark">
               All Projects
