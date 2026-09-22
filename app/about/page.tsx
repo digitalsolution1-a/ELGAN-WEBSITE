@@ -63,7 +63,7 @@ export default function AboutPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <Reveal className="overflow-hidden rounded-lg">
               <img
-                src="/images/elganengineers.jpeg"
+                src="/images/elganengineers2.jpeg"
                 alt="ELGAN specialists reviewing maritime security plans in a control room"
                 className="h-full w-full object-cover"
               />
