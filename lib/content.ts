@@ -90,7 +90,7 @@ export const services: Service[] = [
       'High-level advisory on security strategy, risk, and operational planning for complex environments.',
     description:
       'Policy advisory, regulatory analysis and operational planning for maritime infrastructure, security frameworks and governmental initiatives.',
-    image: '/images/service-advisory.png',
+    image: '/images/elganadvisory.jpeg',
     capabilities: [
       'Security strategy & doctrine',
       'Threat & risk assessment',
