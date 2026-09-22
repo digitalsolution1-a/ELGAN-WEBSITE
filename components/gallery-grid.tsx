@@ -13,13 +13,12 @@ interface GalleryItem {
 }
 
 const items: GalleryItem[] = [
-  { src: '/images/gallery-1.png', title: 'Maritime Security Operations', category: 'Operations', span: true },
-  { src: '/images/gallery-2.png', title: 'Vessel Armor Engineering', category: 'Engineering' },
+  { src: '/images/project-vessel.png', title: 'Maritime Security Operations', category: 'Operations', span: true },
+  { src: '/images/project-shields.png', title: 'Vessel Armor Engineering', category: 'Engineering' },
   { src: '/images/project-shields.png', title: 'Anti-ballistic Gun Shields', category: 'Defence' },
-  { src: '/images/gallery-3.png', title: 'Port Logistics & Supply', category: 'Logistics' },
-  { src: '/images/gallery-5.png', title: 'Offshore Infrastructure', category: 'Maritime', span: true },
-  { src: '/images/gallery-4.png', title: 'Secure Credentials', category: 'Documents' },
-  { src: '/images/gallery-6.png', title: 'Environmental Survey', category: 'Consultancy' },
+  { src: '/images/offshorewaste.png', title: 'Offshore Infrastructure', category: 'Maritime', span: true },
+  { src: '/images/securityprinting.png', title: 'Secure Credentials', category: 'Documents' },
+  { src: '/images/elganadvisory.jpeg', title: 'Environmental Survey', category: 'Consultancy' },
   { src: '/images/project-vessel.png', title: 'Patrol Vessel Protection', category: 'Defence' },
 ]
 
