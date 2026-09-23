@@ -39,9 +39,9 @@ export const services: Service[] = [
     title: 'Security Document Production',
     icon: FileLock2,
     summary:
-      'Conceptualisation, design and high-security printing of tamper-resistant official documents for government agencies.',
+      'Conceptualisation, design and high-security printing of tamper-resistant official documents for government agencies and private companies.',
     description:
-      'Conceptualisation, design and high-security printing of tamper-resistant official documents for government agencies.',
+      'Conceptualisation, design and high-security printing of tamper-resistant official documents for government agencies and private companies.',
     image: '/images/securityprinting.png',
     capabilities: [
       'Holographic & microprint security',
@@ -55,9 +55,9 @@ export const services: Service[] = [
     title: 'Defence Equipment Supply',
     icon: ShieldCheck,
     summary:
-      'Procurement and supply of personal protective equipment, tactical field gear and specialist defence hardware to military and security establishments.',
+      'Procurement and supply of personal protective equipment, tactical field gear and specialist defence hardware,and logistics coordination to military and civil security establishments.',
     description:
-      'Procurement and supply of personal protective equipment, tactical field gear and specialist defence hardware to military and security establishments.',
+      'Procurement and supply of personal protective equipment, tactical field gear and specialist defence hardware,and logistics coordination to military and civil security establishments.',
     image: '/images/service-defence.png',
     capabilities: [
       'Vetted procurement channels',
