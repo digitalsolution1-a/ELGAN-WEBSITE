@@ -19,7 +19,7 @@ const details = [
   {
     icon: Phone,
     title: 'Phone',
-    lines: ['+234 (0) 000 000 0000'],
+    lines: ['+234 706 1536 920'],
   },
   {
     icon: Mail,
