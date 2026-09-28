@@ -77,8 +77,8 @@ export function SiteFooter() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-[var(--brand-teal)]" />
-                <a href="tel:+2340000000000" className="text-white/70 hover:text-white">
-                  +234 (0) 000 000 0000
+                <a href="tel:+2347061536920" className="text-white/70 hover:text-white">
+                  +234 706 1536 920
                 </a>
               </li>
               <li className="flex items-center gap-3">
