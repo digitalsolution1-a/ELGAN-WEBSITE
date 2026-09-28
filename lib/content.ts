@@ -138,7 +138,7 @@ export const projects: Project[] = [
       'Drawing on its NIMASA experience, Elgan executed a parallel antiballistic gun-shield programme for Nigerian military patrol vessels. Shields were engineered to exacting military specifications, improving the operational survivability of naval personnel engaged in riverine and coastal defence, counter-piracy, and maritime interdiction missions.',
   },
   {
-    slug: 'offshore-waste-reception-facility',
+    slug: 'Development of Business Case — offshore-waste-reception-facility',
     title: 'Offshore Waste Reception Facility',
     client: 'NIMASA',
     category: 'Environmental Engineering',
@@ -157,7 +157,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'Independent Technical Assessor ',
-    title: 'Offshore Waste Reception Facility',
+    title: 'Independent Technical Assessor — Offshore Waste Reception Facility',
     client: 'NIMASA',
     category: 'Independent Technical Assessor',
     image: '/images/offshorewaste.png',
