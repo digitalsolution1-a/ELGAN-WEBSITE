@@ -139,7 +139,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'Development of Business Case — offshore-waste-reception-facility',
-    title: 'Offshore Waste Reception Facility',
+    title: 'Development of Business Case — Offshore Waste Reception Facility',
     client: 'NIMASA',
     category: 'Environmental Engineering',
     image: '/images/offshorewaste.png',
