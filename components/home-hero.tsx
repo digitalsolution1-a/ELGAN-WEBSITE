@@ -28,7 +28,7 @@ export function HomeHero() {
             className="mt-6 max-w-xl animate-fade-up text-pretty text-lg leading-relaxed text-white/75"
             style={{ animationDelay: '160ms' }}
           >
-            We specialise in security and defence engineering, mission-critical equipment supply, environmental management, and strategic consultancy, providing solutions that address current needs while anticipating future demands."
+            We specialise in security and defence engineering, mission-critical equipment supply, environmental management, and strategic consultancy, providing solutions that address current needs while anticipating future demands.
           </p>
           <div
             className="mt-9 flex animate-fade-up flex-col gap-4 sm:flex-row"
