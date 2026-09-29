@@ -31,7 +31,7 @@ export function SiteFooter() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/images/Elgan Logo 2.png"
+                src="/images/elganlogocheck.png"
                 alt="ELGAN Logo"
                 width={180}
                 height={50}
