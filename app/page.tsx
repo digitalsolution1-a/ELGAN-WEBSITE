@@ -58,7 +58,7 @@ export default function HomePage() {
               </div>
               {/* Badge background updated to brand-teal */}
               <div className="absolute -bottom-6 -right-6 hidden rounded-lg bg-[var(--brand-teal)] px-8 py-6 text-white shadow-xl sm:block">
-                <p className="font-serif text-3xl">15+</p>
+                <p className="font-serif text-3xl">7+</p>
                 <p className="text-xs font-semibold uppercase tracking-wide">Years of Service</p>
               </div>
             </Reveal>
